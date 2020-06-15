@@ -7,7 +7,7 @@ empty_hash = nil
 name_hash.each do |key, value|
   if min_value == 0 || value < min_value
     min_value = value
-    min_value = key
+    empty_hash = key
   end
 end
 return empty_hash
